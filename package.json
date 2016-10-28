@@ -1,0 +1,18 @@
+{
+  "name": "gitjoke",
+  "version": "1.0.0",
+  "description": "Slack Bot which post new joke every time someone says “git pull” in the chatroom.",
+  "main": "lib/norrisbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manthan Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.7"
+  }
+}
